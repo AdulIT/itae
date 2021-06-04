@@ -1,0 +1,43 @@
+.header {
+	position: relative;
+	min-height: 767px;
+	background-color: #F9FCFF;
+	padding-top: 56px;
+	z-index: 5;
+	&__descr {
+		width: 483px;
+		margin-top: 50px;
+		font-weight: normal;
+		font-size: 21px;
+		line-height: 32px;
+		color: #45464B;
+	}
+}
+.menu {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	&__logo {
+		img {
+			width: 100%;
+		}
+	}
+	&__items {
+		display: flex;
+		justify-content: space-between;
+		width: 590px;
+		margin-top: 14px;
+	}
+	&__item {
+		a {
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 22px;
+			color: rgba(255, 255, 255, .5);
+			&:hover {
+				color: #fff;
+				font-weight: 600;
+			}
+		}
+	}
+}

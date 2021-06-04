@@ -1,0 +1,13 @@
+.read-more {
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 18px;
+    color: $blue-color;
+    img {
+        display: inline-block;
+        margin-left: 25px;
+    }
+    a:hover {
+        color: $blue-color;
+    }
+}

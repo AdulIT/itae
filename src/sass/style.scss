@@ -1,0 +1,23 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'base/variables';
+@import 'base/mixins';
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+.container {
+	width: 1360px;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style-type: none;
+}
+
+@import 'blocks/header';
+@import 'blocks/svg';
+@import 'blocks/title';
+@import 'blocks/read-more';
+@import 'blocks/bachelor';
