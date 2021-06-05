@@ -1,5 +1,5 @@
 {
-  "name": "uber_course",
+  "name": "itae",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -26,6 +26,6 @@
   "dependencies": {
     "animate.css": "^4.1.1",
     "gulp-htmlmin": "^5.0.1",
-    "postcss": ">=8.2.10"
+    "postcss": "^8.3.0"
   }
 }
