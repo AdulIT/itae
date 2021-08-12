@@ -1,0 +1,47 @@
+.cs {
+    min-height: 774px;
+    background: url('../../img/bg.jpg') top (left / 871px 682px) no-repeat;
+    &__title {
+        position: absolute;
+        right: 120px;
+    }
+    .title {
+        width: 438px;
+        font-size: 35px;
+    }
+    &__descr {
+        width: 484px;
+        margin-top: 35px;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 32px;
+        color: #45464B;
+    }
+    .read-more {
+        margin-left: 333px;
+    }
+    &__card {
+        position: absolute;
+        width: 419px;
+        height: 327px;
+        left: 659px;
+        top: 3020px;
+        background: $blue-color;
+        box-shadow: 5px 10px 40px rgba(229, 233, 246, 0.6);
+        border-radius: 10px;
+        padding: 88px 84px 71px 55px;
+        &_title {
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 40px;
+            color: #FFFFFF;
+        }
+        &_descr {
+            margin-top: 45px;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 28px;
+            color: #FFFFFF;
+        }
+    }
+}
