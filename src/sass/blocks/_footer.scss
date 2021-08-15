@@ -53,4 +53,15 @@
         right: 120px;
         bottom: 109px;
     }
+    &__lang-select {
+        background-color: $main-color;
+		color: rgba(255, 255, 255, .5);
+		border: none;
+		height: 22px;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 22px;
+		color: #fff;
+		outline: none;
+    }
 }

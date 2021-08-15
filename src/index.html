@@ -8,18 +8,25 @@
 	<title>IT&E</title>
 </head>
 <body>
-	<header class="header">
+	<header class="header" id="home">
 		<div class="container">
 			<nav class="menu">
 				<div class="menu__logo">
-					<a href="#"><img src="icons/logo/logo.svg" alt="logo_it&e"></a>
+					<a href="#home"><img src="icons/logo/logo.svg" alt="logo_it&e"></a>
 				</div>
 				<div class="menu__items">
-					<li class="menu__item"><a href="#">Home</a></li>
-					<li class="menu__item"><a href="#">Lorem ipsum</a></li>
-					<li class="menu__item"><a href="#">News</a></li>
-					<li class="menu__item"><a href="#">Amon vitalor</a></li>
-					<li class="menu__item"><a href="#">English</a></li>
+					<li class="menu__item"><a href="#home">Home</a></li>
+					<li class="menu__item"><a href="#bachelor">Bachelor</a></li>
+					<li class="menu__item"><a href="#master">Master</a></li>
+					<li class="menu__item"><a href="#news">News</a></li>
+					<li class="menu__item"><a href="#qa">Q&A</a></li>
+					<li class="menu__item">
+						<select class="menu__lang-select">
+							<option value="Eng" selected>English</option>
+							<option value="Ru">Русский</option>
+							<option value="Kz">Қазақша</option>
+						</select>
+					</li>
 				</div>
 			</nav>
 			<div class="svg">
@@ -34,12 +41,12 @@
 			</div>
 			<div class="read-more">
 				<a href="#">Read More</a>
-				<a href="#"><img src="icons/arrow.svg" alt="arrow"></a>
+				<a class="read-more__arrow" href="#"><img src="icons/arrow.svg" alt="arrow"></a>
 			</div>
 		</div>
 	</header>
 
-	<section class="bachelor">
+	<section class="bachelor" id="bachelor">
 		<div class="container">
 			<div class="bachelor__flex">
 				<div class="bachelor__title">
@@ -50,7 +57,7 @@
 					</div>
 					<div class="read-more">
 						<a href="#">Read More</a>
-						<a href="#"><img src="icons/arrow.svg" alt="arrow"></a>
+						<a class="read-more__arrow" href="#"><img src="icons/arrow.svg" alt="arrow"></a>
 					</div>
 				</div>
 				<div class="bachelor__card-bsh"> <!-- Modifier -bsh is box-shadow-->
@@ -93,7 +100,7 @@
 		</div>
 	</section>
 
-	<section class="master">
+	<section class="master" id="master">
 		<div class="container">
 			<div class="master__header">
 				<div class="title">Master's degree</div>
@@ -103,7 +110,7 @@
 					incididunt ut labore.
 					<div class="read-more">
 						<a href="#">Read More</a>
-						<a href="#"><img src="icons/arrow.svg" alt="arrow"></a>
+						<a class="read-more__arrow" href="#"><img src="icons/arrow.svg" alt="arrow"></a>
 					</div>
 				</div>
 			</div>
@@ -159,7 +166,7 @@
 				</div>
 				<div class="read-more">
 					<a href="#">Read More</a>
-					<a href="#"><img src="icons/arrow.svg" alt="arrow"></a>
+					<a class="read-more__arrow" href="#"><img src="icons/arrow.svg" alt="arrow"></a>
 				</div>
 			</div>
 			<div class="cs__card">
@@ -171,7 +178,7 @@
 		</div>
 	</section>
 
-	<section class="news">
+	<section class="news" id="news">
 		<div class="container">
 			<div class="news__header">
 				<div class="title">Recent News</div>
@@ -181,7 +188,7 @@
 					incididunt ut labore.
 					<div class="read-more">
 						<a href="#">Read More</a>
-						<a href="#"><img src="icons/arrow.svg" alt="arrow"></a>
+						<a class="read-more__arrow" href="#"><img src="icons/arrow.svg" alt="arrow"></a>
 					</div>
 				</div>
 			</div>
@@ -223,7 +230,7 @@
 		</div>
 	</section>
 
-	<section class="qa">
+	<section class="qa" id="qa">
 		<div class="qa__gray_bg">
 			<div class="container">
 				<div class="qa__header">
@@ -257,14 +264,21 @@
 		<div class="container">
 			<nav class="footer__nav">
 				<div class="footer__logo">
-					<a href="#"><img src="icons/logo/footer-logo.svg" alt="logo_it&e"></a>
+					<a href="#home"><img src="icons/logo/footer-logo.svg" alt="logo_it&e"></a>
 				</div>
 				<div class="footer__items">
-					<li class="footer__item"><a href="#">Home</a></li>
-					<li class="footer__item"><a href="#">Lorem ipsum</a></li>
-					<li class="footer__item"><a href="#">News</a></li>
-					<li class="footer__item"><a href="#">Amon vitalor</a></li>
-					<li class="footer__item"><a href="#">English</a></li>
+					<li class="footer__item"><a href="#home">Home</a></li>
+					<li class="footer__item"><a href="#bachelor">Bachelor</a></li>
+					<li class="footer__item"><a href="#master">Master</a></li>
+					<li class="footer__item"><a href="#news">News</a></li>
+					<li class="footer__item"><a href="#qa">Q&A</a></li>
+					<li class="footer__item">
+						<select class="footer__lang-select">
+							<option value="Eng" selected>English</option>
+							<option value="Ru">Русский</option>
+							<option value="Kz">Қазақша</option>
+						</select>
+					</li>
 				</div>
 			</nav>
 

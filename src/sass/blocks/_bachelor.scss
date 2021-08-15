@@ -44,7 +44,7 @@
         // Hover effect
         &:hover {
             transform: translate(-5px, -5px);
-            box-shadow: 5px 5px 5px $main-color; 
+            box-shadow: 3px 3px 3px #98b8e7; 
         }
         &-bsh {
             width: 430px;
@@ -55,7 +55,7 @@
             transition: all .3s;
             &:hover {
                 transform: translate(-5px, -5px);
-                box-shadow: 5px 5px 5px $main-color; 
+                box-shadow: 3px 3px 3px #98b8e7;
             }
         }
         &-br {
@@ -68,7 +68,7 @@
             transition: all .3s;
             &:hover {
                 transform: translate(-5px, -5px);
-                box-shadow: 5px 5px 5px $main-color; 
+                box-shadow: 3px 3px 3px #98b8e7;
             }
         }
         &-descr {
